@@ -1,4 +1,4 @@
-package br.com.dio.exercicios;
+package br.com.dio.exercicios.loops;
 
 /*
 Faça um programa que calcule o Fatorial de um número inteiro fornecido pelo usuario.

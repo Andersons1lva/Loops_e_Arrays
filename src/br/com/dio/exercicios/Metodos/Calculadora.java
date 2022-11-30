@@ -1,6 +1,6 @@
 package br.com.dio.exercicios.Metodos;
 
-public class Ex1_Metodos {
+public class Calculadora {
 
     public static void soma(int numero1, int numero2){
         double resultado = numero1 + numero2;

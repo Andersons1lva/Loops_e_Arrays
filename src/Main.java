@@ -1,4 +1,5 @@
 import br.com.dio.exercicios.Metodos.Ex1_Metodos;
+import br.com.dio.exercicios.Metodos.Mensagem;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,5 +11,12 @@ public class Main {
         calculadora.subtracao(9,8);
         calculadora.multiplicacao(5,8);
         calculadora.divisao(2,43);
+
+        System.out.println("Mensagem");
+        Mensagem mensagem = new Mensagem();
+
+        mensagem.obterMensagem(9);
+        mensagem.obterMensagem(14);
+        mensagem.obterMensagem(1);
     }
 }
